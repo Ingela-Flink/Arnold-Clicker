@@ -23,6 +23,8 @@
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 3;
+    opacity: 0;
 }
 
 #plusEtt{
@@ -49,8 +51,8 @@ margin: 0; padding: 0; border: 0; box-sizing: border-box;
 
 #Arnold{
     position: absolute;
-    width: 100%; height: 100%;
-    top: 50%;
+    width: 45%;  height: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     user-select: none;
@@ -58,6 +60,7 @@ margin: 0; padding: 0; border: 0; box-sizing: border-box;
     -webkit-user-drag: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+    z-index: 1;
 }
 
 #bicep{
@@ -97,6 +100,9 @@ img{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: large;
+    width: 200px;
+    height: 20px;
+    text-align: center;
 }
 
 #sign{
